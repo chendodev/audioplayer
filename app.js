@@ -59,7 +59,7 @@ function prevSong() {
 function nextSong() {
   audioIndex++
 
-  if (audioIndex > 3 - 1) {
+  if (audioIndex > songs.length - 1) {
     audioIndex = 0
   }
 
