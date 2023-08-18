@@ -113,3 +113,4 @@ audio.addEventListener("timeupdate", (e) => {
 });
 
 progressContainer.addEventListener("click", setProgress);
+audio.addEventListener("ended", nextSong);
